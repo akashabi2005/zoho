@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .body{
+            background-color: aqua;
+            margin: 0;
+        }
+
+
+        .main{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+
+        }
+
+        .box{
+            width: 20vw;
+            height: 40vh;
+            font-size: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50px;
+            color: aliceblue;
+            transition: all 1s ease-in-out;
+        }
+        .sub1{
+            background-color: rgb(255, 0, 0);
+            position: absolute;
+            top: 30vh;
+            left: 4vw;
+        }
+        .sub2{
+            background-color: rgb(0, 252, 8);
+            position: absolute;
+            top: 35vh;
+            left: 28vw;
+        }
+        .sub3{
+            background-color: rgb(0, 136, 255);
+            position: absolute;
+            top: 30vh;
+            right: 28vw;
+        }
+        .sub4{
+            background-color: rgb(234, 255, 0);
+            position: absolute;
+            top: 35vh;
+            right: 4vw;
+        }
+
+        .main:hover .sub1{
+            border:10px solid rgb(255, 0, 0);
+            background-color: rgb(255, 255, 255,0);
+            color: rgb(255, 0, 0);
+            rotate: 25deg;
+            top: 35vh;}
+        .main:hover .sub2{
+            border:10px solid rgb(122, 237, 8);
+            background-color: rgb(255, 255, 255,0);
+            color: rgb(121, 228, 14);
+            rotate: -25deg;
+            top: 25vh;}
+        .main:hover .sub3{
+            border:10px solid rgb(0, 153, 255);
+            background-color: rgb(255, 255, 255,0);
+            color: rgb(0, 140, 255);
+            rotate: 25deg;
+            top: 35vh;}
+        .main:hover .sub4{
+            border:10px solid rgb(229, 255, 0);
+            background-color: rgb(255, 255, 255,0);
+            color: rgb(255, 242, 0);
+            rotate: -25deg;
+            top: 25vh;}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box sub1">
+            Z
+        </div> 
+        <div class="box sub2">
+            O
+        </div>
+        <div class="box sub3">
+            H
+        </div>
+        <div class="box sub4">
+            O
+        </div>
+
+    </div>
+</body>
+</html>
